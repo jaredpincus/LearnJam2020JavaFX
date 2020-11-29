@@ -15,7 +15,7 @@ public class Framework extends Application {
 	// Size of scene
 	Point2D size = new Point2D(1000, 800);
 	
-	/* Called automatically hen application is setup */
+	/* Called automatically when application is setup */
 	public void start(Stage stage) {
 		Group root = new Group(); // Add to root's children to make objects visible
 		Scene scene = new Scene(root, size.getX(), size.getY());
